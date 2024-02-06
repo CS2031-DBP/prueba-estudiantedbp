@@ -2,7 +2,7 @@
 
 from fastapi import FastAPI
 
-# Creamos una instancia de FastAPI con 2 endpoints basicos uno que diga hola mundo, otro que en base a el endpoint /items/{item_id} nos regrese el item_id
+# Creamos una instancia de FastAPI con 2 endpoints basicos uno que diga hola mundo,
 
 app = FastAPI()
 
