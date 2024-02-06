@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Hello World Test",
-      "setup": "sudo -H pip3 install pytest fastapi ",
+      "setup": "sudo -H pip3 install pytest fastapi httpx",
       "run": "pytest test.py",
       "input": "",
       "output": "",
