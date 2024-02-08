@@ -9,6 +9,16 @@
       "comparison": "exact",
       "timeout": 10,
       "points": 2
+    },
+    {
+      "name": "2",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test1.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
     }
   ]
 }
